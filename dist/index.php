@@ -11,6 +11,8 @@
 <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 <link rel="icon" type="image/png" href="/imgs/logo.png">
 <link rel="prefetch" as="image" href="/imgs/title.png">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5560789937276053"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 <div id="header">
@@ -196,7 +198,5 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js'></script>
 <script  src="./script.js?v=<?php echo rand()?>"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5560789937276053"
-     crossorigin="anonymous"></script>
 </body>
 </html>
