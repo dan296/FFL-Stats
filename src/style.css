@@ -1,0 +1,218 @@
+:root{
+  --trans: 0.2s ease-in-out;
+  --blue: #4daff5;
+  --bg: #161718;
+  --bg-dark: #101010;
+}
+body{
+  background: var(--bg);
+  color: white;
+  font-family: "Poppins";
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+a{
+  color: white;
+  transition: var(--trans);
+  text-decoration: none;
+  font-size: 9pt;
+}
+a:hover, .allSelector:hover, #closeFilters:hover{
+  color: var(--blue);
+}
+
+#chart-wrap{
+  max-width: 800px;
+  margin: auto;
+  margin-top: 140px;
+}
+canvas{
+  display: none;
+}
+
+#stat-selector, #chart-selector, .secondary-selector{
+  border-radius: 5px;
+  height: 30px;
+  width:120px;
+  border: 1px solid gray;
+  float: right;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.chart-select, .secondary-select {
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    position: relative;
+  border-right: 1px solid gray; 
+  transition: var(--trans);
+  cursor:pointer;
+}
+.chart-select:last-child, .secondary-select:last-child{
+  border: none;
+}
+.chart-select:hover, .chart-selected{
+  background: white;
+  color: black;
+}
+.chart-select i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 15px;
+    font-size: 15px;
+    width: 15px;
+    margin: auto;
+}
+
+.secondary-selector{
+  display: none;
+  font-size: 9pt;
+  text-align:center;
+  width: 200px;
+  float: left;
+  margin-left: 10px;
+}
+.secondary-select {
+    width: 100px;
+    padding: 6px;
+}
+#stat-selector{
+  float: left;
+  cursor: pointer;
+  font-size: 9pt;
+  overflow: initial;
+  text-align: center;
+      position: relative;
+    z-index: 3;
+      width: 150px;
+}
+#curr-selected-stat{
+    height: calc(100% - 10px);
+    padding: 5px;
+    text-align: center;
+    font-size: 9pt;
+  transition: var(--trans);
+  border-radius: 5px;
+  text-overflow: ellipsis;
+    overflow: hidden;
+}
+#curr-selected-stat:hover, .secondary-selected, #navBtnWrap:hover, .secondary-select:hover{
+  background:white;
+  color: var(--bg-dark);
+}
+#dropdown{
+  display: none;
+  background: var(--bg);
+  margin-top: 2px;
+  box-shadow: 0px 2px 5px 0px black;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  overflow: scroll;
+  max-height: 105px;
+}
+.dropdown-item{
+  height: 25px;
+  cursor:pointer;
+  transition: var(--trans);
+  padding-top:5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.dropdown-item:hover{
+  background: white;
+  color: var(--bg-dark);
+}
+#navBtnWrap{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  z-index: 1;
+  background: var(--bg-dark);
+  border-bottom-right-radius: 5px;
+  top: 0;
+  left: 0;
+  transition: var(--trans);
+  cursor: pointer;
+  font-size: 14pt;
+}
+div#navBtnWrap i {
+    padding: 9px;
+}
+div#closeFiltersWrap {
+    height: 15px;
+}
+#closeFilters {
+    float: right;
+    width: 19px;
+    height: 11px;
+    font-size: 18pt;
+  cursor: pointer;
+}
+#closeFilters:after{
+  display: inline-block;
+  content: "\00d7"; /* This will render the 'X' */
+}
+#chartFilters{
+    position: fixed;
+    left: -200px;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background: #101010;
+      overflow: scroll;
+  z-index: 4;
+  transition: var(--trans);
+}
+
+#chartFilters section{
+  padding: 10px;
+}
+#chartFilters .sectionTitle{
+  text-decoration: underline;
+  display: inline-block;
+}
+.filterContainer{
+    max-height: 110px;
+    overflow: scroll;
+}
+.filterContainer input{
+  cursor:pointer;
+}
+#chartFilters .filterLabel{
+  font-size: 8pt;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    text-overflow: ellipsis;
+    max-width: 155px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.allSelector{
+  text-decoration: underline;
+    cursor: pointer;
+    transition: var(--trans);
+    /* margin-left: 75px; */
+    float: right;
+    font-size: 8pt;
+    position: relative;
+    top: 7px;
+}
+.dispname{
+  color: gray;
+}
