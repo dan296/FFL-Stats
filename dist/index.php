@@ -206,7 +206,7 @@
     <a href="https://www.fflstats.com">View a different league</a>
   </section>
   <section id="version">
-    <div><u><a target="_blank" href="https://github.com/dan296/FFL-Stats"><i class="fa-brands fa-github"></i> v1.0.0</a></u></div>
+    <div><u><a target="_blank" href="https://github.com/dan296/FFL-Stats" style="position: relative; left: -10px;"><i class="fa-brands fa-github" style="margin-right: 5px; font-size: 10pt;"></i>v1.0.0</a></u></div>
   </section>
 </div>
 </div>
