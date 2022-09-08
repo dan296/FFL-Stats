@@ -183,7 +183,7 @@
 </div>
 <div id="navBtnWrap"><i class="fa-solid fa-football"></i></div>
 <div id="chartFilters">
-  <div style="min-height: calc(100vh - 20px);">
+  <div style="min-height: calc(100vh - 38px);">
   <div id="closeFiltersWrap"><div id="closeFilters"></div></div>
   <section id="teamFilters">
     <div class="sectionTitle">Teams</div> <span class="allSelector deselectAll">Deselect All</span>
