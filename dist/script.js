@@ -102,7 +102,7 @@ getLeague(lID);
 $('#idSubmit').click(function(){
     lID = $('#idSubWrap input').val();
     //getLeague(lID);
-    window.location.href = 'http://ffl.dkhawaja.com?id='+lID;
+    window.location.href = 'https://fflstats.com?id='+lID;
 })
 
 $('#idSubWrap input').keypress(function(e){
