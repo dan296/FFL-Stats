@@ -203,8 +203,8 @@
   <section id="quickLnx">
     <div><u>Quick Links</u></div>
   </section>
-  <section>
-    <a href="https://www.fflstats.com">View a different league</a>
+  <section style="text-align: center;">
+    <a href="https://www.fflstats.com">View a different league?</a>
   </section>
 </div>
   <section id="version">
