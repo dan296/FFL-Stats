@@ -202,6 +202,12 @@
   <section id="quickLnx">
     <div><u>Quick Links</u></div>
   </section>
+  <section>
+    <a href="https://www.fflstats.com">View a different league</a>
+  </section>
+  <section id="version">
+    <div><u>v1.0.0</u></div>
+  </section>
 </div>
 </div>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
