@@ -22,6 +22,12 @@
 
   gtag('config', 'G-RDCS4GET7L');
 </script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( document ).tooltip();
+  } );
+  </script>
 </head>
 <body>
 <div id="header">
@@ -38,7 +44,7 @@
     <div id="inv-id">Invalid League ID</div>
 </div>
 <div id="main">
-<div id="shareWrap"><i class="fa-solid fa-share-from-square"></i></div>
+<div id="shareWrap" title="share"><i class="fa-solid fa-share-from-square"></i></div>
 <div id="link-copied">Link Copied!</div>
 <div id='chart-wrap'>
     <div id="sel-wrap">
@@ -181,7 +187,7 @@
     </div>
 </div>
 </div>
-<div id="navBtnWrap"><i class="fa-solid fa-football"></i></div>
+<div id="navBtnWrap" title="menu"><i class="fa-solid fa-football"></i></div>
 <div id="chartFilters">
   <div style="min-height: calc(100vh - 38px);">
   <div id="closeFiltersWrap"><div id="closeFilters"></div></div>
