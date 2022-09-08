@@ -314,7 +314,7 @@ div#closeFiltersWrap {
     height: 100vh;
     background: #101010;
       overflow: scroll;
-  z-index: 4;
+  z-index: 6;
   transition: var(--trans);
       box-shadow: 0px 0px 14px 4px black;
 }
@@ -359,7 +359,6 @@ div#closeFiltersWrap {
 }
 
 #version{
-  position: absolute;
     bottom: 0;
     margin: auto;
     right: 0;
