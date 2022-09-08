@@ -13,6 +13,15 @@
 <link rel="prefetch" as="image" href="/imgs/title.png">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5560789937276053"
      crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RDCS4GET7L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RDCS4GET7L');
+</script>
 </head>
 <body>
 <div id="header">
