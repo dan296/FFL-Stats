@@ -356,6 +356,16 @@ div#closeFiltersWrap {
 .dispname{
   color: gray;
 }
+
+#version{
+  position: absolute;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 8pt;
+}
 #tableView{
     /*overflow-x: scroll;*/
     position: relative;
