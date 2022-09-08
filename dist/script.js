@@ -1983,7 +1983,7 @@ $('#navBtnWrap').click(function(){
   $('#chartFilters').css('left','0px');
 })
 $('#closeFilters').click(function(){
-  $('#chartFilters').css('left','-200px');
+  $('#chartFilters').css('left','-214px');
 })
 
 

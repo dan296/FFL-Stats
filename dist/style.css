@@ -308,7 +308,7 @@ div#closeFiltersWrap {
 }
 #chartFilters{
     position: fixed;
-    left: -200px;
+    left: -214px;
     top: 0;
     width: 200px;
     height: 100vh;
@@ -316,6 +316,7 @@ div#closeFiltersWrap {
       overflow: scroll;
   z-index: 4;
   transition: var(--trans);
+      box-shadow: 0px 0px 14px 4px black;
 }
 
 #chartFilters section{
