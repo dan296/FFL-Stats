@@ -263,7 +263,7 @@ div#cum-avg-selector, #pts-selector, #wins-selector, #acqs-selector, #rank-selec
   width: 40px;
   height: 40px;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   background: var(--bg-dark);
   border-bottom-right-radius: 5px;
   top: 0;
