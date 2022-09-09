@@ -283,7 +283,7 @@ div#cum-avg-selector, #pts-selector, #wins-selector, #acqs-selector, #rank-selec
     right: 50px;
     top: 5px;
     text-align: center;
-    z-index: 5;
+    z-index: 6;
     padding: 6px;
     display: none;
 }
