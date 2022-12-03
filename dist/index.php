@@ -36,6 +36,11 @@
     <input type="number" placeholder="######" /><br/>
     <button id="idSubmit">Submit</button>
     <div id="inv-id">Invalid League ID</div>
+    <div style="position: absolute; left: 0; right: 0; bottom: 0;">
+      <u>
+        <a target="_blank" href="https://github.com/dan296/FFL-Stats" style="position: relative; left: -10px;"><i class="fa-brands fa-github" style="margin-right: 5px; font-size: 10pt;"></i>v1.0.0</a>
+      </u>
+    </div>
 </div>
 <div id="main">
 <div id="shareWrap" title="share"><i class="fa-solid fa-share-from-square"></i></div>

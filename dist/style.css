@@ -82,7 +82,8 @@ div#idSubmissionPage {
 }
 
 div#idSubWrap {
-    height: 190px;
+    height: calc(100vh - 122px);
+    min-height: 182px;
     text-align: center;
     color: gray;
     font-size: 12pt;
